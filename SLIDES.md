@@ -7,6 +7,8 @@ paging: Slide %d / %d
 
 # A Nix Overview
 
+Make sure you're connected to Tailscale!
+
 Follow along in your browser:
 > http://adame.tailae01d.ts.net:7681
 
@@ -313,4 +315,20 @@ buildGoModule rec {
 # Home Manager
 ## Managing your Dotfiles with Nix
 
+Let's just take a look...
 
+---
+
+# What else...
+## NixOS
+
+NixOS is a Linux Distribution entirely managed by Nix. You can extend your
+Flake to expose NixOS configurations which can work in tandem with your Home
+Manager configurations.
+
+---
+
+# What else...
+## Nix-Darwin
+
+Nix-Darwin lets you take full control of your Mac, all with Nix.

@@ -28,6 +28,7 @@
           processes.ttyd.exec = "ttyd -Rp 7681 tmux a -rtBravocode";
 
           scripts.start.exec = "slides SLIDES.md";
+          scripts.serve.exec = "devenv up";
         };
 
       };
