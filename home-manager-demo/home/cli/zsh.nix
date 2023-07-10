@@ -25,4 +25,11 @@
   programs.fzf.enableZshIntegration = true;
   programs.bat.enable = true;
   home.shellAliases.cat = "bat";
+
+  programs.oh-my-posh = {
+    enable = true;
+    enableZshIntegration = true;
+    settings = builtins.fromJSON (builtins.unsafeDiscardStringContext (builtins.readFile ./.omp.json));
+  };
+
 }
