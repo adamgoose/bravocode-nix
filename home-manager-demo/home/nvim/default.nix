@@ -6,6 +6,10 @@
     vimAlias = true;
   };
 
+  home.sessionVariables = {
+    EDITOR = "nvim";
+  };
+
   home.file.".config/nvim".recursive = true;
   home.file.".config/nvim".source = pkgs.fetchFromGitHub {
     owner = "AstroNvim";

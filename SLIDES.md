@@ -19,6 +19,8 @@ Access the slides in your terminal:
 
 # What is Nix?
 
+https://nixos.org
+
 - Package Manager
 - Linux Distribution
 - Programming Language
@@ -73,7 +75,7 @@ Think of `package.json` or `Gemfile`.
 # Working with Flakes
 ## Pinning Nixpkgs
 
-Nixpkgs is released twice a year. Let's grab the latest stable release.
+[Nixpkgs](https://github.com/NixOS/nixpkgs) is released twice a year. Let's grab the latest stable release.
 ```
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/23.05";
